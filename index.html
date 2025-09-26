@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <div class="logo">😊</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#profile">Our Profile</a></li>
+        <li><a href="#portofolio">portofolio</a></li>
+        <li><a href="#message">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1 id="welcomeText">Hi, Welcome To Website</h1>
+    <p>This is a <b>Rfqi studio</b> website</p>
+  </section>
+  <section id="profile" style="padding: 50px;">
+    <h1>Our profile</h1>
+    <p>Profil Perusahaan
+Nama Perusahaan: Rfqi Studio
+Bidang Usaha: Desain Grafis, Multimedia, dan Pengembangan Website
+Tahun Berdiri: 2025
+Tagline: “Kreativitas Tanpa Batas” <br>Rfqi Studio adalah perusahaan kreatif yang bergerak di bidang desain grafis, multimedia, serta pengembangan website. Kami hadir untuk membantu brand, bisnis, maupun individu dalam menciptakan identitas visual yang kuat, modern, dan berkesan. Dengan tim muda yang inovatif, Rifqi Studio menggabungkan seni, teknologi, dan strategi untuk menghasilkan karya yang fungsional sekaligus estetik.</p>
+<h1>Visi</h1>
+<p>“Menjadi studio kreatif terdepan yang menghadirkan solusi desain dan digital inovatif untuk mendukung perkembangan brand lokal hingga global.”</p>
+<h1>Misi</h1>
+<p>1. Memberikan layanan desain grafis, multimedia, dan website dengan kualitas terbaik serta harga yang kompetitif. <br>2. Mendorong kreativitas tim dengan terus berinovasi sesuai perkembangan tren dan teknologi.<br>3. Membantu klien membangun identitas visual yang kuat dan konsisten.<br>4. Mengutamakan kepuasan pelanggan dengan komunikasi yang jelas, profesional, dan transparan.<br>5. Mengembangkan ekosistem kreatif yang mendukung kolaborasi dan pertumbuhan bersama.
+</p>
+
+  
+  </section>
+    
+
+  <!-- HEADQUARTER -->
+  <section id="portofolio" style="padding: 50px;">
+    <h2>portofolio</h2>
+    <div class="cities">
+      <div class="city">GD</div>
+      <div class="city">GI</div>
+      <div class="city">GUI</div>
+    </div>
+  </section>
+
+  <!-- MESSAGE US -->
+  <section id="message" class="message-section">
+    <h2>Message Us</h2>
+    <div class="message-container">
+      <form id="messageForm">
+        <label>Nama:</label>
+        <input type="text" id="nama" required>
+
+        <label>Tanggal Lahir:</label>
+        <input type="date" id="tanggal" required>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" name="gender" value="Laki-Laki" required> Laki-Laki
+        <input type="radio" name="gender" value="Perempuan"> Perempuan
+
+        <label>Pesan:</label>
+        <textarea id="pesan" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <div class="message-output">
+        <p id="currentTime"></p>
+        <p><strong>Nama:</strong> <span id="outNama"></span></p>
+        <p><strong>Tanggal Lahir:</strong> <span id="outTanggal"></span></p>
+        <p><strong>Jenis Kelamin:</strong> <span id="outGender"></span></p>
+        <p><strong>Pesan:</strong> <span id="outPesan"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Created By Rfqi Studio</p>
+  </footer>
+</body>
+</html>
